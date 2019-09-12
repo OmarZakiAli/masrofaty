@@ -44,7 +44,7 @@ Widget buildTransactionListTile(BuildContext ctx, Transaction tranaction) {
         leading: CircleAvatar(
           radius: 30,
           backgroundColor: Theme.of(ctx).accentColor,
-          child: Center(child: Text("\$${tranaction.price.toString()}")),
+          child: Center(child: Text("\$${tranaction.price.toString()}",textAlign: TextAlign.center,)),
         ),
         trailing: CircleAvatar(
           backgroundColor: Colors.red,
